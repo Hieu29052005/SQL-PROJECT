@@ -1,6 +1,6 @@
 SELECT
-	  p.productCode,
-    p.productName,
+	p.productCode,
+    	p.productName,
     p.buyPrice,
     SUM(od.quantityOrdered) AS totalOrdered
 FROM
