@@ -1,6 +1,6 @@
 SELECT
-	  p.productLine,
-    pl.textDescription AS productLineDescription,
+	p.productLine,
+    	pl.textDescription AS productLineDescription,
 	  SUM(p.quantityInStock) AS totalInventory,
     SUM(od.quantityOrdered) AS totalSales,
     SUM(od.priceEach*od.quantityOrdered) AS totalRevenue,
