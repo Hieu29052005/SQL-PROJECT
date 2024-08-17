@@ -1,6 +1,6 @@
 SELECT
-	  c.customerNumber,
-    c.customerName,
+	c.customerNumber,
+    	c.customerName,
     p.paymentDate,
     p.amount AS paymentAmount
 FROM
