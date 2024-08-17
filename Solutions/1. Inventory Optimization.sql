@@ -1,6 +1,6 @@
 SELECT
-	  productCode,
-    productName,
+	productCode,
+    	productName,
     quantityInStock,
     totalOrdered,
     (quantityInStock-totalOrdered) AS inventoryShortage
