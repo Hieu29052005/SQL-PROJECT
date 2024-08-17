@@ -1,6 +1,6 @@
 SELECT
-	  e.employeeNumber,
-    e.lastName,
+	e.employeeNumber,
+    	e.lastName,
     e.firstName,
     e.jobTitle,
     SUM(od.priceEach*od.quantityOrdered) AS totalSales
