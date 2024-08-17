@@ -1,6 +1,6 @@
 SELECT
-	  c.customerNumber,
-    c.customerName,
+	c.customerNumber,
+    	c.customerName,
     count(o.orderNumber) AS totalSales
 FROM
 	  mintclassics.customers AS c
