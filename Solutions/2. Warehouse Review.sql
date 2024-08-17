@@ -1,5 +1,5 @@
 SELECT
-	  w.warehouseCode,
+	w.warehouseCode,
     	w.warehouseName,
     SUM(p.quantityInStock) AS totalInventory
 FROM
